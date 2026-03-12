@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Photography Prints</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            color: #222;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .cart-button {
+            font-size: 1.8rem;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .cart-button:hover,
+        .cart-button:focus {
+            outline: 2px solid #000;
+        }
+
+        .photo-grid {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .photo-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .photo-card img {
+            width: 250px;
+            height: auto;
+            border-radius: 6px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 14px;
+            background-color: #005bbb;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover,
+        button:focus {
+            background-color: #004999;
+            outline: 2px solid #222;
+        }
+
+        /* Navigation buttons */
+        .nav-links {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .nav-links a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #005bbb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .nav-links a:hover,
+        .nav-links a:focus {
+            background: #004999;
+            outline: 2px solid #222;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Travel Photography Prints</h1>
+    <a href="checkout.html" class="cart-button">
+        🛒 <span class="visually-hidden">Go to checkout</span>
+    </a>
+</header>
+
+<main>
+
+    <ul class="photo-grid">
+
+        <!-- Photo 1 -->
+        <li class="photo-card">
+            <img src="https://images.pexels.com/photos/36328288/pexels-photo-36328288.jpeg"
+                 alt="Snow-covered mountains in Greenland">
+            <h3>Sunrise Mountains</h3>
+            <p>This was from a fabulous trip to a lake in Canada with my family. The water was lovely – but very cold!</p>
+            <p><strong>£25.00</strong></p>
+            <button type="button">Add to Basket</button>
+        </li>
+
+        <!-- Photo 2 -->
+        <li class="photo-card">
+            <img src="https://images.pexels.com/photos/14021069/pexels-photo-14021069.jpeg"
+                 alt="Golden Gate Bridge view">
+            <h3>China high bridge in Zhangjiajie</h3>
+            <p>A picture of a Zahangjiajie bridage !</p>
+            <p><strong>£25.00</strong></p>
+            <button type="button">Add to Basket</button>
+        </li>
+
+        <!-- Photo 3 -->
+        <li class="photo-card">
+            <img src="https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg"
+                 alt="River valley in Greenland">
+            <h3>Nature Valley</h3>
+            <p>Here is a photo from The Scottish Highlands. It's a river valley.</p>
+            <p><strong>£25.00</strong></p>
+            <button type="button">Add to Basket</button>
+        </li>
+
+        <!-- Photo 4 -->
+        <li class="photo-card">
+            <img src="https://images.pexels.com/photos/4534200/pexels-photo-4534200.jpeg"
+                 alt="Peaceful waterfall surrounded by rocks">
+            <h3>Waterfall</h3>
+            <p>The waterfall made such a lovely sound. I could have fallen asleep!</p>
+            <p><strong>£25.00</strong></p>
+            <button type="button">Add to Basket</button>
+        </li>
+
+    </ul>
+
+    <!-- Navigation Links -->
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+    </div>
+
+</main>
+
+<footer>
+    <p>Copyright The Wondering Photographer 2018.</p>
+</footer>
+
+</body>
+</html>

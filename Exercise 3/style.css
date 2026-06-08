@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Blue hyperlink-style nav links */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: underline;
+    color: blue;
+    font-size: 18px;
+}
+
+/* Smaller website width */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0;
+}
+
+/* Text + cow image */
+.top-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.text-box {
+    flex: 1; /* allows the bottom sentence to stretch under the cow */
+}
+
+.top-section img {
+    width: 300px;
+    flex-shrink: 0;
+    display: block;
+}
+
+/* Text formatting */
+.text-box p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* GALLERY — tall images, no spacing */
+.gallery {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.gallery img,
+.gallery video {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}

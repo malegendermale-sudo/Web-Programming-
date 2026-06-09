@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ff66cc;
+    color: black;
+}
+
+/* DIVIDER */
+.divider-row {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.divider {
+    width: 320px;
+}
+
+/* CART */
+.cart-middle {
+    text-align: center;
+    margin: 15px 0;
+    padding-left: 55px;
+}
+
+.cart-icon {
+    width: 32px;
+}
+
+/* MAIN LAYOUT */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.photo-block {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* PHOTO */
+.photo-small {
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ⭐ CAPTION TEXT BLUE ⭐ */
+.caption {
+    background: white;
+    padding: 12px 10px;
+    width: 320px;
+    margin: 10px auto 0;
+    text-align: left;
+    color: blue; /* ← caption text turns blue */
+}
+
+/* BUTTON */
+.side-btn {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+
+    display: block;
+    margin-top: 10px;
+
+    margin-left: calc((100% - 320px) / 2 + 10px);
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+/* ⭐ FOOTER LINKS BLUE ⭐ */
+.footer-links a {
+    color: blue; /* ← links turn blue */
+    text-decoration: underline;
+}
+
